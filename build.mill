@@ -2,7 +2,7 @@ import mill._, javalib._, publish._
 
 import mill.javalib.sonatypecentral.SonatypeCentralPublishModule
 
-object bar extends JavaModule with SonatypeCentralPublishModule {
+object qux extends JavaModule with SonatypeCentralPublishModule {
   def publishVersion = "0.0.1"
 
   def pomSettings = PomSettings(
