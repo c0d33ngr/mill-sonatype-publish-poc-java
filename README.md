@@ -75,5 +75,5 @@ gpg --keyserver  keyserver.ubuntu.com --recv-keys longIDHere
 ### 6. Publish to Sonatype Maven Central (Individual module `qux`)
 
 ```bash
-./mill-release -i qux.publishSonatypeCentral
+./mill-release qux.publishSonatypeCentral
 ```
