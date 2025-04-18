@@ -3,7 +3,7 @@ import mill._, javalib._, publish._
 import mill.scalalib.SonatypeCentralPublishModule
 
 object qux extends JavaModule with SonatypeCentralPublishModule {
-  def publishVersion = "0.0.4"
+  def publishVersion = "0.0.5"
 
   def pomSettings = PomSettings(
     description = "Mill Sonatype Publish PoC Java",
